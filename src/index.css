@@ -56,6 +56,12 @@ body {
   background-color: #f4f4f4;
 }
 
+.container {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+}
+
 .grid {
   display: grid;
   row-gap: 9.6rem;

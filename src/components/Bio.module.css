@@ -1,0 +1,18 @@
+.bio {
+  display: flex;
+  gap: 50px;
+  border-left: 5px solid var(--color-font);
+}
+
+.bio img {
+  margin: 16px auto;
+  height: 350px;
+  border-radius: 5%;
+}
+
+.bio p {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  width: 50%;
+  margin: auto 0;
+}
