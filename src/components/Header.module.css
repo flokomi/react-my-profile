@@ -1,0 +1,36 @@
+.header {
+  margin-bottom: 6.4rem;
+}
+
+.gradientBackground {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 200% 200%;
+  animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.heading {
+  padding: 12.8rem 0 12.8rem 0;
+  text-align: center;
+}
+
+.icon {
+  font-size: 4rem;
+  color: var(--color-font);
+  margin-right: 2rem;
+}
+
+.header h2 {
+  display: inline;
+}
